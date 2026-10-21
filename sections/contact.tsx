@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
+import { CopyEmailButton } from "@/components/copy-email-button";
 import { Reveal } from "@/components/reveal";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -34,15 +35,16 @@ export function ContactSection() {
                   <div className="mt-0.5 rounded-lg border border-cyan-400/20 bg-cyan-400/10 p-2 text-cyan-300">
                     <Mail size={16} />
                   </div>
-                  <div>
+                  <div className="flex-1">
                     <dt className="text-xs font-medium uppercase tracking-wider text-muted">Email</dt>
-                    <dd className="mt-0.5 font-medium">
+                    <dd className="mt-0.5 flex flex-wrap items-center justify-between gap-2 font-medium">
                       <a
                         href={`mailto:${profile.email}`}
                         className="text-cyan-300 hover:underline"
                       >
                         {profile.email}
                       </a>
+                      <CopyEmailButton size="sm" variant="ghost" />
                     </dd>
                   </div>
                 </div>
