@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="fireGrad" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1c0b0b" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </linearGradient>
+    <linearGradient id="orangeGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ef4444" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#fireGrad)" />
+
+  <circle cx="320" cy="260" r="280" fill="#ef4444" fill-opacity="0.12" filter="blur(65px)" />
+  <circle cx="1280" cy="720" r="300" fill="#f97316" fill-opacity="0.1" filter="blur(65px)" />
+
+  <rect x="80" y="80" width="1440" height="840" rx="32" fill="#0f172a" fill-opacity="0.8" stroke="#7f1d1d" stroke-width="2" />
+
+  <rect x="160" y="180" width="160" height="38" rx="19" fill="#991b1b" fill-opacity="0.3" stroke="#f87171" stroke-width="1.5" />
+  <text x="240" y="204" text-anchor="middle" fill="#f87171" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="2">EMBARQUÉ &amp; PCB</text>
+
+  <text x="160" y="290" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="800">Robot Détecteur</text>
+  <text x="160" y="355" fill="url(#orangeGlow)" font-family="ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="800">d'Incendie &amp; PCB KiCad</text>
+
+  <text x="160" y="420" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="400">Système autonome de sécurité industrielle avec carte électronique sur mesure</text>
+
+  <g transform="translate(160, 480)">
+    <rect x="0" y="0" width="120" height="42" rx="21" fill="#1e293b" stroke="#334155" />
+    <text x="60" y="26" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">Arduino</text>
+
+    <rect x="135" y="0" width="110" height="42" rx="21" fill="#1e293b" stroke="#334155" />
+    <text x="190" y="26" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">KiCad</text>
+
+    <rect x="260" y="0" width="140" height="42" rx="21" fill="#1e293b" stroke="#334155" />
+    <text x="330" y="26" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">Routage PCB</text>
+
+    <rect x="415" y="0" width="140" height="42" rx="21" fill="#1e293b" stroke="#334155" />
+    <text x="485" y="26" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">Capteurs Gaz</text>
+  </g>
+
+  <g transform="translate(160, 600)">
+    <rect x="0" y="0" width="220" height="110" rx="20" fill="#0b1220" stroke="#7f1d1d" />
+    <text x="30" y="48" fill="#f87171" font-family="ui-sans-serif, system-ui" font-size="34" font-weight="800">100%</text>
+    <text x="30" y="80" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="500">Autonome</text>
+
+    <rect x="250" y="0" width="220" height="110" rx="20" fill="#0b1220" stroke="#7f1d1d" />
+    <text x="280" y="48" fill="#f59e0b" font-family="ui-sans-serif, system-ui" font-size="34" font-weight="800">Double face</text>
+    <text x="280" y="80" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="500">Routage PCB Custom</text>
+  </g>
+
+  <!-- Right Visual: PCB & Robot Schematic Representation -->
+  <g transform="translate(860, 180)">
+    <rect x="0" y="0" width="540" height="520" rx="28" fill="#042f2e" stroke="#14b8a6" stroke-width="2" />
+    
+    <rect x="0" y="0" width="540" height="60" rx="28" fill="#064e3b" />
+    <text x="40" y="36" fill="#ccfbf1" font-family="monospace" font-size="16">KiCad PCB Layout · Robot-Fire-v2.kicad_pcb</text>
+
+    <!-- PCB Traces (Copper lines) -->
+    <g stroke="#2dd4bf" stroke-width="2.5" fill="none" opacity="0.85">
+      <path d="M 80 120 L 160 120 L 220 180 L 320 180" />
+      <path d="M 80 160 L 140 160 L 180 200 L 180 320 L 260 400" />
+      <path d="M 320 180 L 420 180 L 460 220 L 460 380" />
+      <path d="M 120 460 L 220 460 L 280 400 L 360 400" />
+      <path d="M 360 400 L 400 360 L 400 280" />
+    </g>
+
+    <!-- PCB Pads & Vias -->
+    <circle cx="80" cy="120" r="6" fill="#fef08a" stroke="#ca8a04" />
+    <circle cx="80" cy="160" r="6" fill="#fef08a" stroke="#ca8a04" />
+    <circle cx="320" cy="180" r="6" fill="#fef08a" stroke="#ca8a04" />
+    <circle cx="460" cy="220" r="6" fill="#fef08a" stroke="#ca8a04" />
+    <circle cx="460" cy="380" r="6" fill="#fef08a" stroke="#ca8a04" />
+    <circle cx="120" cy="460" r="6" fill="#fef08a" stroke="#ca8a04" />
+
+    <!-- Central Microcontroller Chip (QFP / DIP) -->
+    <rect x="220" y="240" width="120" height="120" rx="10" fill="#022c22" stroke="#2dd4bf" stroke-width="2" />
+    <circle cx="235" cy="255" r="4" fill="#2dd4bf" />
+    <text x="280" y="300" text-anchor="middle" fill="#5eead4" font-family="monospace" font-size="14" font-weight="700">ATMEGA</text>
+    <text x="280" y="320" text-anchor="middle" fill="#99f6e4" font-family="monospace" font-size="12">328P-PU</text>
+
+    <!-- Pins on chip -->
+    <g fill="#fef08a">
+      <rect x="208" y="258" width="12" height="6" rx="2" />
+      <rect x="208" y="278" width="12" height="6" rx="2" />
+      <rect x="208" y="298" width="12" height="6" rx="2" />
+      <rect x="208" y="318" width="12" height="6" rx="2" />
+      
+      <rect x="340" y="258" width="12" height="6" rx="2" />
+      <rect x="340" y="278" width="12" height="6" rx="2" />
+      <rect x="340" y="298" width="12" height="6" rx="2" />
+      <rect x="340" y="318" width="12" height="6" rx="2" />
+    </g>
+
+    <!-- Flame sensor symbol -->
+    <rect x="60" y="240" width="100" height="70" rx="12" fill="#7f1d1d" stroke="#f87171" />
+    <text x="110" y="280" text-anchor="middle" fill="#fef2f2" font-family="ui-sans-serif, system-ui" font-size="12" font-weight="700">Capteur UV</text>
+
+    <!-- Motor Driver -->
+    <rect x="390" y="240" width="100" height="70" rx="12" fill="#1e3a8a" stroke="#60a5fa" />
+    <text x="440" y="280" text-anchor="middle" fill="#eff6ff" font-family="ui-sans-serif, system-ui" font-size="12" font-weight="700">L298N Drive</text>
+  </g>
+</svg>

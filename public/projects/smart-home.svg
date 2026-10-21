@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="homeGrad" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#140f2d" />
+      <stop offset="100%" stop-color="#0b1220" />
+    </linearGradient>
+    <linearGradient id="indigoGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#homeGrad)" />
+
+  <circle cx="320" cy="260" r="280" fill="#6366f1" fill-opacity="0.14" filter="blur(65px)" />
+  <circle cx="1280" cy="720" r="300" fill="#a855f7" fill-opacity="0.1" filter="blur(65px)" />
+
+  <rect x="80" y="80" width="1440" height="840" rx="32" fill="#0f172a" fill-opacity="0.8" stroke="#312e81" stroke-width="2" />
+
+  <rect x="160" y="180" width="140" height="38" rx="19" fill="#4338ca" fill-opacity="0.3" stroke="#818cf8" stroke-width="1.5" />
+  <text x="230" y="204" text-anchor="middle" fill="#818cf8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" letter-spacing="2">DOMOTIQUE</text>
+
+  <text x="160" y="290" fill="#f8fafc" font-family="ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="800">Smart Home</text>
+  <text x="160" y="355" fill="url(#indigoGlow)" font-family="ui-sans-serif, system-ui, sans-serif" font-size="52" font-weight="800">Contrôle &amp; Supervision</text>
+
+  <text x="160" y="420" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" font-weight="400">Pilotage à distance d'équipements via ESP32, relais &amp; protocoles MQTT</text>
+
+  <g transform="translate(160, 480)">
+    <rect x="0" y="0" width="110" height="42" rx="21" fill="#1e293b" stroke="#334155" />
+    <text x="55" y="26" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">ESP32</text>
+
+    <rect x="125" y="0" width="120" height="42" rx="21" fill="#1e293b" stroke="#334155" />
+    <text x="185" y="26" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">Relais 220V</text>
+
+    <rect x="260" y="0" width="100" height="42" rx="21" fill="#1e293b" stroke="#334155" />
+    <text x="310" y="26" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">MQTT</text>
+
+    <rect x="375" y="0" width="130" height="42" rx="21" fill="#1e293b" stroke="#334155" />
+    <text x="440" y="26" text-anchor="middle" fill="#e2e8f0" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">Node-RED</text>
+  </g>
+
+  <g transform="translate(160, 600)">
+    <rect x="0" y="0" width="220" height="110" rx="20" fill="#0b1220" stroke="#312e81" />
+    <text x="30" y="48" fill="#818cf8" font-family="ui-sans-serif, system-ui" font-size="34" font-weight="800">&lt; 50ms</text>
+    <text x="30" y="80" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="500">Temps de réponse</text>
+
+    <rect x="250" y="0" width="220" height="110" rx="20" fill="#0b1220" stroke="#312e81" />
+    <text x="280" y="48" fill="#10b981" font-family="ui-sans-serif, system-ui" font-size="34" font-weight="800">ONLINE</text>
+    <text x="280" y="80" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="500">Statut Dispositifs</text>
+  </g>
+
+  <!-- Right Visual: Smart Home Dashboard controls -->
+  <g transform="translate(860, 180)">
+    <rect x="0" y="0" width="540" height="520" rx="28" fill="#090d16" stroke="#6366f1" stroke-width="2" stroke-opacity="0.5" />
+    
+    <rect x="0" y="0" width="540" height="60" rx="28" fill="#1e293b" />
+    <text x="40" y="36" fill="#cbd5e1" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="600">Home Control Hub</text>
+
+    <!-- Switch Card 1 -->
+    <rect x="40" y="100" width="210" height="160" rx="20" fill="#1e293b" stroke="#3730a3" />
+    <circle cx="80" cy="145" r="22" fill="#4f46e5" fill-opacity="0.3" />
+    <text x="80" y="152" text-anchor="middle" fill="#818cf8" font-size="20">💡</text>
+    <text x="80" y="200" fill="#f8fafc" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="700">Éclairage Salon</text>
+    <rect x="135" y="210" width="54" height="28" rx="14" fill="#6366f1" />
+    <circle cx="175" cy="224" r="10" fill="#ffffff" />
+
+    <!-- Switch Card 2 -->
+    <rect x="290" y="100" width="210" height="160" rx="20" fill="#1e293b" stroke="#334155" />
+    <circle cx="330" cy="145" r="22" fill="#334155" />
+    <text x="330" y="152" text-anchor="middle" fill="#94a3b8" font-size="20">❄️</text>
+    <text x="330" y="200" fill="#f8fafc" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="700">Climatisation</text>
+    <rect x="385" y="210" width="54" height="28" rx="14" fill="#334155" />
+    <circle cx="400" cy="224" r="10" fill="#94a3b8" />
+
+    <!-- Switch Card 3 -->
+    <rect x="40" y="300" width="210" height="160" rx="20" fill="#1e293b" stroke="#3730a3" />
+    <circle cx="80" cy="345" r="22" fill="#4f46e5" fill-opacity="0.3" />
+    <text x="80" y="352" text-anchor="middle" fill="#818cf8" font-size="20">🔌</text>
+    <text x="80" y="400" fill="#f8fafc" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="700">Prise Relais 1</text>
+    <rect x="135" y="410" width="54" height="28" rx="14" fill="#6366f1" />
+    <circle cx="175" cy="424" r="10" fill="#ffffff" />
+
+    <!-- Switch Card 4 -->
+    <rect x="290" y="300" width="210" height="160" rx="20" fill="#1e293b" stroke="#3730a3" />
+    <circle cx="330" cy="345" r="22" fill="#4f46e5" fill-opacity="0.3" />
+    <text x="330" y="352" text-anchor="middle" fill="#818cf8" font-size="20">🔒</text>
+    <text x="330" y="400" fill="#f8fafc" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="700">Verrou Sécurité</text>
+    <rect x="385" y="410" width="54" height="28" rx="14" fill="#6366f1" />
+    <circle cx="425" cy="424" r="10" fill="#ffffff" />
+  </g>
+</svg>
