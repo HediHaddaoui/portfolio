@@ -1,6 +1,8 @@
 {
-  "name": "dashbord",
-  "version": "0.1.0",
+  "name": "portfolio-hedi-haddaoui",
+  "version": "1.0.0",
+  "description": "Portfolio professionnel de Mohamed El Hedi Haddaoui - Étudiant ingénieur IoT & Systèmes Embarqués",
+  "author": "Mohamed El Hedi Haddaoui <hedihaddaoui68@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -35,7 +35,6 @@ export function CvSection() {
             </div>
           </Card>
 
-          {/* Visionneuse PDF intégrée */}
           <div className="mt-8 overflow-hidden rounded-2xl border border-white/10 bg-slate-900/60 shadow-2xl">
             <div className="flex items-center justify-between border-b border-white/10 px-6 py-3.5 bg-white/[0.02]">
               <div className="flex items-center gap-2">
