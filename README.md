@@ -1,6 +1,6 @@
 # Portfolio — Mohamed El Hedi Haddaoui
 
-> **Élève ingénieur IoT & Systèmes Embarqués | Diplômé en Ingénierie des Systèmes Informatiques**  
+> **Étudiant ingénieur IoT & Systèmes Embarqués | Diplômé en Ingénierie des Systèmes Informatiques**  
 > Portfolio moderne développé avec Next.js 16 (App Router), TypeScript, Tailwind CSS et Framer Motion.
 
 ---
@@ -39,7 +39,7 @@ Bienvenue sur le dépôt officiel de mon portfolio d'ingénieur. Ce site met en 
 
 ```bash
 # Cloner le dépôt
-git clone https://github.com/hedi-haddaoui/portfolio.git
+git clone https://github.com/HediHaddaoui/portfolio.git
 
 # Installer les dépendances
 npm install
@@ -57,4 +57,4 @@ Rendez-vous sur [http://localhost:3000](http://localhost:3000).
 - **Email** : [hedihaddaoui68@gmail.com](mailto:hedihaddaoui68@gmail.com)
 - **Téléphone** : +216 93 501 056
 - **LinkedIn** : [Mohamed El Hedi Haddaoui](https://www.linkedin.com/in/mohamed-el-hedi-haddaoui-737809187)
-- **GitHub** : [@hedi-haddaoui](https://github.com/hedi-haddaoui)
+- **GitHub** : [@HediHaddaoui](https://github.com/HediHaddaoui)

@@ -27,7 +27,7 @@ export const projects: Project[] = [
       "Mode hors-ligne pour la consultation des lignes et horaires réguliers",
     ],
     role: "Conception architecturale, développement de l'application mobile Flutter, modélisation de la base Firebase et intégration de la cartographie.",
-    github: "https://github.com/hedi-haddaoui",
+    github: "https://github.com/HediHaddaoui",
     demo: "",
   },
   {
@@ -49,7 +49,7 @@ export const projects: Project[] = [
       "Déclenchement automatique d'électrovannes d'arrosage selon des seuils critiques",
     ],
     role: "Développement du firmware C/C++ sur ESP32, paramétrage du broker MQTT, conception des flux et de l'interface Node-RED.",
-    github: "https://github.com/hedi-haddaoui",
+    github: "https://github.com/HediHaddaoui",
     demo: "",
   },
   {
@@ -71,7 +71,7 @@ export const projects: Project[] = [
       "Isolation galvanique par optocoupleurs pour une sécurité matérielle maximale",
     ],
     role: "Étude et câblage électronique, programmation du microcontrôleur ESP32, sécurisation des échanges et interface utilisateur.",
-    github: "https://github.com/hedi-haddaoui",
+    github: "https://github.com/HediHaddaoui",
     demo: "",
   },
   {
@@ -93,7 +93,7 @@ export const projects: Project[] = [
       "Navigation autonome avec évitement d'obstacles et avertisseurs d'urgence",
     ],
     role: "Routage électronique du PCB, approvisionnement des composants, brasage et développement du programme autonome C++.",
-    github: "https://github.com/hedi-haddaoui",
+    github: "https://github.com/HediHaddaoui",
     demo: "",
   },
 ];
