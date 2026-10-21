@@ -1,6 +1,7 @@
 # Portfolio — Mohamed El Hedi Haddaoui
 
 > **Étudiant ingénieur IoT & Systèmes Embarqués | Diplômé en Ingénierie des Systèmes Informatiques**  
+> 🌐 **Site en ligne** : [https://portfolio-rosy-six-84184tacc3.vercel.app](https://portfolio-rosy-six-84184tacc3.vercel.app)  
 > Portfolio moderne développé avec Next.js 16 (App Router), TypeScript, Tailwind CSS et Framer Motion.
 
 ---

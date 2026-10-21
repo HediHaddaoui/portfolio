@@ -15,6 +15,6 @@ export const profile: Profile = {
   linkedinUrl: "https://www.linkedin.com/in/mohamed-el-hedi-haddaoui-737809187",
   githubUrl: "https://github.com/HediHaddaoui",
   cvPath: "/cv.pdf",
-  siteUrl: "https://mohamed-el-hedi-haddaoui.vercel.app",
+  siteUrl: "https://portfolio-rosy-six-84184tacc3.vercel.app",
   availability: "À l'écoute d'opportunités — Stage / Premier emploi",
 };
